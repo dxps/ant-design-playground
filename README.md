@@ -1,46 +1,36 @@
-## Feature List
+## A playground / started for React and Ant Design library
+It uses:
 - hot reloading/browser-sync/redux devtools on dev build
-![](http://ww1.sinaimg.cn/large/785cd1e3gw1f69xb4vta2g20tb0fs7c5.gif)
-- minify/chunkhash/trackJS on production build
-![](http://ww4.sinaimg.cn/large/785cd1e3gw1f69xey2om7g20tb0fs1kx.gif)
-- eslint both of terminal and pre-commit
-![](http://ww1.sinaimg.cn/large/785cd1e3gw1f69xiq41uog20tb0fsn8e.gif)
-![](http://ww2.sinaimg.cn/large/785cd1e3gw1f69zn0p20gj21je0jan1f.jpg)
+- minify / chunkhash / trackJS on production build
+- eslint (automatically triggered during dev and before a commit)
 - unit test of react/redux
-![](http://ww3.sinaimg.cn/large/785cd1e3gw1f69x6lccmij21020m2juk.jpg)
-![](http://ww2.sinaimg.cn/large/785cd1e3gw1f69zp1v97ij21kw0u8td8.jpg)
 - es6/webapck
 - sass support
-- UI Kit: Ant Design
 - isomorphic-fetch
 - mock data
-- example app
-- ...
+- example app, currently used for demo-ing `antd` components
 
 ## Getting Started
 ### install
-```
-git clone git@github.com:Justin-lu/react-redux-best-practice.git demo
-cd demo
-npm install
-```
+- Clone it: `git clone https://github.com/visvadw/ant-design-playground.git`
+- Install the dependencies: `npm install`
 
-### npm script
+### Scripts
 
 ```shell
-# dev start with test/lint
+# Start the dev server (with test/lint)
 npm run start 
 
-# prodction start with browser-sync server
-npm run start:prod
-
-# production build
-npm run build
-
-# mock data
+# start a simple mock server
 npm run start:mock
 
-# run test
+# production start with browser-sync server
+npm run start:prod
+
+# build the production release
+npm run build
+
+# run the tests
 npm run test
 
 # generate test cover report
