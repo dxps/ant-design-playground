@@ -1,4 +1,4 @@
-## A playground / started for React and Ant Design library
+## React & Ant Design playground
 It uses:
 - hot reloading/browser-sync/redux devtools on dev build
 - minify / chunkhash / trackJS on production build
@@ -12,8 +12,11 @@ It uses:
 
 ## Getting Started
 ### install
-- Clone it: `git clone https://github.com/visvadw/ant-design-playground.git`
-- Install the dependencies: `npm install`
+* Clone it: `git clone https://github.com/visvadw/ant-design-playground.git`
+* Install the dependencies: `npm install`
+* Start:
+  * the mock server using `npm run start:mock`
+  * and the dev server using `npm run start`
 
 ### Scripts
 
