@@ -11,7 +11,7 @@ It uses:
 - example app, currently used for demo-ing `antd` components
 
 ## Getting Started
-### install
+### Quick Start
 * Clone it: `git clone https://github.com/visvadw/ant-design-playground.git`
 * Install the dependencies: `npm install`
 * Start:
