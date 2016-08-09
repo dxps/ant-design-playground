@@ -86,11 +86,13 @@ export class UsersPage extends React.Component {
   }
 
   onSelectChange(selectedRowKeys) {
+
     this.setState({ selectedRowKeys });
   }
 
   onPaginationSizeChange(current, pageSize) {
-    console.log('UsersPage.onPaginationSizeChange > current: ', current, '; pageSize:', pageSize);
+
+    // console.log('UsersPage.onPaginationSizeChange > current: ', current, '; pageSize:', pageSize);
     const newState = {
       selectionDirty: false,
       pagination: this.state.pagination

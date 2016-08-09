@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 // }
 
 export class Menu extends React.Component {
+
   static propTypes = {
     name: React.PropTypes.string
   };
@@ -17,10 +18,12 @@ export class Menu extends React.Component {
   }
 
   render() {
+
     return (
-      <div></div>
+      <div/>
     );
   }
+
 }
 
 export default connect(

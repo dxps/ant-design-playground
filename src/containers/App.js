@@ -37,7 +37,7 @@ class App extends Component {
           <aside className="ant-layout-sider">
 
             <Link to={'/'}>
-              <div className="ant-layout-logo"></div>
+              <div className="ant-layout-logo"/>
             </Link>
 
             <Menu mode="inline" theme="light" defaultOpenKeys={['sub1']}>
@@ -63,6 +63,13 @@ class App extends Component {
                 </Menu.Item>
                 <Menu.Item key="2-3">
                   <Link to={'/adv-search-form'}>Advanced Search Form</Link>
+                </Menu.Item>
+
+                <Menu.Item key="2-4">
+                  <Link to={'/basic-modal'}>Basic Modal</Link>
+                </Menu.Item>
+                <Menu.Item key="2-5">
+                  <Link to={'/basic-modal-overlay'}>Basic Modal Overlay Click</Link>
                 </Menu.Item>
 
               </SubMenu>

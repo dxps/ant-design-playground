@@ -18,11 +18,13 @@ class TransferDemo extends React.Component {
   }
 
   handleChange(targetKeys) { // }, direction, moveKeys) {
+
     //console.log(targetKeys, direction, moveKeys);
     this.setState({ targetKeys });
   }
 
   render() {
+
     return (
       <div>
         <div>Basic Usage</div>
@@ -33,7 +35,7 @@ class TransferDemo extends React.Component {
           render={item => item.title}
         />
       </div>
-    )
+    );
   }
 
 }
