@@ -10,6 +10,7 @@ import TreeSelectDemo         from "./antd-demos/TreeSelect/TreeSelectDemo";
 import AdvancedSearchFormDemo from './antd-demos/Form/AdvancedSearchFormDemo';
 import BasicModalDemo               from './antd-demos/Modal/BasicModalDemo';
 import BasicModalOverlayClickDemo   from './antd-demos/Modal/BasicModalOverlayClickDemo';
+import InputDemo                    from './antd-demos/Input/InputDemo';
 
 export default (
 
@@ -24,6 +25,7 @@ export default (
     <Route path="adv-search-form"  component={AdvancedSearchFormDemo}/>
     <Route path="basic-modal"      component={BasicModalDemo}/>
     <Route path="basic-modal-overlay"      component={BasicModalOverlayClickDemo}/>
+    <Route path="input"                    component={InputDemo}/>
 
     <Route path="*" component={NotFoundPage}/>
 

@@ -1,10 +1,11 @@
 import React, { PropTypes, Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router";
+// import "./App.scss";
+import "./App.less";
 import { Menu, Breadcrumb, Icon, LocaleProvider } from "antd";
 import Login from "./login/Login";
 import enUS from "antd/lib/locale-provider/en_US";
-import "./App.scss";
 
 const SubMenu = Menu.SubMenu;
 
@@ -40,7 +41,7 @@ class App extends Component {
               <div className="ant-layout-logo"/>
             </Link>
 
-            <Menu mode="inline" theme="light" defaultOpenKeys={['sub1']}>
+            <Menu mode="inline" theme="light" defaultOpenKeys={['sub2']}>
 
               <SubMenu key="sub1" title={<span><Icon type="user"/>User Management</span>}>
 
@@ -70,6 +71,13 @@ class App extends Component {
                 </Menu.Item>
                 <Menu.Item key="2-5">
                   <Link to={'/basic-modal-overlay'}>Basic Modal Overlay Click</Link>
+                </Menu.Item>
+
+                <Menu.Item key="2-6">
+                  <Link to={'/input'}>Input</Link>
+                </Menu.Item>
+                <Menu.Item key="2-7">
+                  <Link to={'/input-number'}>InputNumber</Link>
                 </Menu.Item>
 
               </SubMenu>
