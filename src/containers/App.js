@@ -80,6 +80,10 @@ class App extends Component {
                   <Link to={'/input-number'}>InputNumber</Link>
                 </Menu.Item>
 
+                <Menu.Item key="2-8">
+                  <Link to={'/table-filters-sorter'}>Filters Sorters Demo 1</Link>
+                </Menu.Item>
+
               </SubMenu>
 
             </Menu>
