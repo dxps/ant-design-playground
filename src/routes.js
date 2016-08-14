@@ -5,9 +5,9 @@ import HomePage               from "./containers/HomePage";
 import ConnectedUsersPage     from "./containers/UsersPage";
 import NotFoundPage           from "./components/NotFoundPage";
 
-import TransferDemo           from "./antd-demos/Transfer/TransferDemo";
-import TreeSelectDemo         from "./antd-demos/TreeSelect/TreeSelectDemo";
-import AdvancedSearchFormDemo from './antd-demos/Form/AdvancedSearchFormDemo';
+import TransferDemo                 from "./antd-demos/Transfer/TransferDemo";
+import TreeSelectDemo               from "./antd-demos/TreeSelect/TreeSelectDemo";
+import AdvancedSearchFormDemo       from './antd-demos/Form/AdvancedSearchFormDemo';
 import BasicModalDemo               from './antd-demos/Modal/BasicModalDemo';
 import BasicModalOverlayClickDemo   from './antd-demos/Modal/BasicModalOverlayClickDemo';
 import InputDemo                    from './antd-demos/Input/InputDemo';
