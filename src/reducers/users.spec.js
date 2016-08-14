@@ -6,6 +6,7 @@ import { USERS_SUCCESS } from './../constants/actionTypes';
 const db = require('./../data/db.json');
 
 describe('Users reducer',() => {
+
   it('should return the initialState', () => {
     expect(users(undefined, {})).to.deep.equal(initialState.users);
   });

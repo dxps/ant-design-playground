@@ -1,17 +1,17 @@
-import chai, { expect } from 'chai';
+import chai, { expect } from "chai";
 import sinon from "sinon";
 import sinonChai from "sinon-chai";
-
-import React from 'react';
-import { mount, shallow } from 'enzyme';
-import { UsersPage } from './UsersPage';
-import { Col } from 'antd';
+import React from "react";
+import { mount, shallow } from "enzyme";
+import { UsersPage } from "./UsersPage";
+import { Col } from "antd";
 
 const db = require('./../data/db.json');
 
 chai.use(sinonChai);
 
 function setup() {
+
   const props = {
     fetchUsers: sinon.spy(),
     users: {
@@ -37,6 +37,7 @@ function setup() {
 }
 
 describe('UsersPage container', () => {
+
   it('should render self with props', () => {
     // componentDidMount
     const { mountWrapper, props } = setup();
@@ -57,4 +58,5 @@ describe('UsersPage container', () => {
     const tableProps = enzymeWrapper.find('CustomTable').props();
     expect(tableProps.dataSource).to.deep.equal(db.users.data);
   });
+
 });

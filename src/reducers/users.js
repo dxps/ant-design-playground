@@ -1,14 +1,13 @@
-import {
-  USERS_QERUEST, USERS_SUCCESS, USERS_FAILURE
-} from './../constants/actionTypes';
-import initialState from './initialState';
+import { USERS_REQUEST, USERS_SUCCESS, USERS_FAILURE } from "../constants/actionTypes";
+import initialState from "./initialState";
 
 export default function users(state = initialState.users, action) {
+
   switch (action.type) {
-    case USERS_QERUEST:
-      return Object.assign({}, state, {
-        isFetching: true
-      });
+
+    case USERS_REQUEST:
+      return Object.assign({}, state, { isFetching: true });
+
     case USERS_SUCCESS:
       return Object.assign({}, {
         isFetching: false,
@@ -20,12 +19,15 @@ export default function users(state = initialState.users, action) {
         },
         data: action.users.data
       });
+
     case USERS_FAILURE:
       return Object.assign({}, state, {
         isFetching: false,
         errorMessage: action.message
       });
+
     default:
       return state;
   }
+
 }

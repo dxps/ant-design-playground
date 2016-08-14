@@ -9,6 +9,7 @@ import { Modal } from 'antd';
 const errorMessages = (res) => `${res.status} ${res.statusText}`;
 
 function check401(res) {
+
   // 登陆界面不需要做401校验
   if (res.status === 401 && !res.url.match('auth')) {
     Modal.error({

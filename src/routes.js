@@ -11,6 +11,7 @@ import AdvancedSearchFormDemo       from './antd-demos/Form/AdvancedSearchFormDe
 import BasicModalDemo               from './antd-demos/Modal/BasicModalDemo';
 import BasicModalOverlayClickDemo   from './antd-demos/Modal/BasicModalOverlayClickDemo';
 import InputDemo                    from './antd-demos/Input/InputDemo';
+import InputNumberDemo              from './antd-demos/Input/InputNumberDemo';
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 
 export default (
@@ -27,6 +28,7 @@ export default (
     <Route path="basic-modal"      component={BasicModalDemo}/>
     <Route path="basic-modal-overlay"      component={BasicModalOverlayClickDemo}/>
     <Route path="input"                    component={InputDemo}/>
+    <Route path="input-number"             component={InputNumberDemo}/>
     <Route path="table-filters-sorter"     component={FiltersSortersTableDemo1}/>
 
     <Route path="*" component={NotFoundPage}/>
