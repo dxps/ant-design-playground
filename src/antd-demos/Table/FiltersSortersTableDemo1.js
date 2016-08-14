@@ -95,7 +95,7 @@ class FiltersSortersTableDemo1 extends React.Component {
         { text: 'Mouse', value: 'Mouse' },
       ],
       filteredValue: filteredInfo.name,
-      onFilter: (value, record) => record.name.includes(value),
+      onFilter: (value, record) => record.name.search(value) >= 0,
       sorter: (a, b) => a.name.length - b.name.length,
       sortOrder: sortedInfo.columnKey === 'name' && sortedInfo.order,
     }, {
@@ -115,7 +115,7 @@ class FiltersSortersTableDemo1 extends React.Component {
         { text: 'Fake', value: 'Fake' }
       ],
       filteredValue: filteredInfo.address,
-      onFilter: (value, record) => record.address.includes(value),
+      onFilter: (value, record) => record.address.search(value) >= 0,
       sorter: (a, b) => a.address.length - b.address.length,
       sortOrder: sortedInfo.columnKey === 'address' && sortedInfo.order,
     }];

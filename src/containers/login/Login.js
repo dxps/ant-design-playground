@@ -81,12 +81,12 @@ class Login extends Component {
           <FormItem label="Email" hasFeedback>
             <Input
               {...emailProps}
-              placeholder="Enter the email ..."
+              placeholder="ant@design.com"
               type="email"
             />
           </FormItem>
           <FormItem label="Password" hasFeedback>
-            <Input {...passwordProps} type="password" autoComplete="off" placeholder="Enter the password ..."
+            <Input {...passwordProps} type="password" autoComplete="off" placeholder="12345678"
               onContextMenu={noop} onPaste={noop} onCopy={noop} onCut={noop} />
           </FormItem>
           <FormItem>
