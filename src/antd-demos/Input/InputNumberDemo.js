@@ -24,8 +24,8 @@ class InputNumberDemo extends React.Component {
             <InputNumber min={1} max={10} defaultValue={3} onChange={this.handleChange} />
           </Col>
           <Col xs={24} sm={24} md={12} lg={12}>
-            <br/>InputNumber with two decimals<br/><br/>
-            <InputNumber min={1} max={10} step={0.01} onChange={this.handleChange} />
+            <br/>InputNumber with two decimals (size="large")<br/><br/>
+            <InputNumber min={1} max={10} step={0.01} onChange={this.handleChange} size="large" />
           </Col>
         </Row>
       </div>

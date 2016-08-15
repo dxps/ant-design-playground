@@ -3,6 +3,7 @@ require('es6-promise').polyfill();
 
 import cookie from 'js-cookie';
 import { API_CONFIG } from './../config/api';
+import { AUTH_ACCESS_TOKEN } from '../constants/authConstants';
 
 import { Modal } from 'antd';
 
@@ -10,13 +11,12 @@ const errorMessages = (res) => `${res.status} ${res.statusText}`;
 
 function check401(res) {
 
-  // 登陆界面不需要做401校验
   if (res.status === 401 && !res.url.match('auth')) {
     Modal.error({
-      title: "登陆验证过期",
-      content: "您的登陆验证已过期，请重新登陆",
+      title: "Authentication Required",
+      content: "Your session has expired，please authenticate.",
       onOk: () => {
-        cookie.remove('access_token');
+        cookie.remove(AUTH_ACCESS_TOKEN);
         location.href = '/';
       }
     });
@@ -28,6 +28,7 @@ function check401(res) {
 }
 
 function check404(res) {
+
   if (res.status === 404) {
     return Promise.reject(errorMessages(res));
   }
@@ -35,10 +36,12 @@ function check404(res) {
 }
 
 function jsonParse(res) {
+
   return res.json().then(jsonResult => ({ ...res, jsonResult }));
 }
 
 function setUriParam(keys, value, keyPostfix) {
+
   let keyStr = keys[0];
 
   keys.slice(1).forEach((key) => {
@@ -53,6 +56,7 @@ function setUriParam(keys, value, keyPostfix) {
 }
 
 function getUriParam(keys, object) {
+
   const array = [];
 
   if (object instanceof(Array)) {
@@ -77,6 +81,7 @@ function getUriParam(keys, object) {
 }
 
 function toQueryString(object) {
+
   const array = [];
 
   for (const key in object) {
@@ -93,8 +98,8 @@ function toQueryString(object) {
 }
 
 
-// TODO: 用户登陆之后，需保存Token至cookie
 function cFetch(url, options) {
+
   let mergeUrl = API_CONFIG.baseUri + url;
   const defaultOptions = {
     method: 'GET'
@@ -109,7 +114,7 @@ function cFetch(url, options) {
 
   opts.headers = {
     ...opts.headers,
-    'Authorization': cookie.get('access_token') || ''
+    'Authorization': cookie.get(AUTH_ACCESS_TOKEN) || ''
   };
 
   return fetch(mergeUrl, opts)
@@ -117,7 +122,7 @@ function cFetch(url, options) {
     .then(check404)
     .then(jsonParse)
     .catch( (error) => {
-      console.log('request failed', error); // eslint-disable-line  no-console
+      console.log('cFetch> Request failed: ', error); // eslint-disable-line  no-console
       return { error };
     });
 }
