@@ -84,6 +84,10 @@ class App extends Component {
                   <Link to={'/table-filters-sorter'}>Filters Sorters Demo 1</Link>
                 </Menu.Item>
 
+                <Menu.Item key="2-9">
+                  <Link to={'/notification-close-handler'}>Notification close handler</Link>
+                </Menu.Item>
+
               </SubMenu>
 
             </Menu>
