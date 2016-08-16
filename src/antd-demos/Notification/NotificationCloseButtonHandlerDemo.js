@@ -2,7 +2,7 @@ import React from 'react';
 // import { connect } from "react-redux";
 import { Button, notification } from 'antd';
 
-class NotificationCloseHandlerDemo extends React.Component {
+class NotificationCloseButtonHandlerDemo extends React.Component {
 
   constructor(props) {
     super(props);
@@ -56,6 +56,6 @@ class NotificationCloseHandlerDemo extends React.Component {
 //   return {};
 // }
 
-// export default connect(mapStateToProps)(NotificationCloseHandlerDemo);
+// export default connect(mapStateToProps)(NotificationCloseButtonHandlerDemo);
 
-export default NotificationCloseHandlerDemo;
+export default NotificationCloseButtonHandlerDemo;

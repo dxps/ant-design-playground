@@ -13,7 +13,7 @@ import BasicModalOverlayClickDemo   from './antd-demos/Modal/BasicModalOverlayCl
 import InputDemo                    from './antd-demos/Input/InputDemo';
 import InputNumberDemo              from './antd-demos/Input/InputNumberDemo';
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
-import NotificationCloseHandlerDemo from './antd-demos/Notification/NotificationCloseHandlerDemo';
+import NotificationCloseButtonHandlerDemo from './antd-demos/Notification/NotificationCloseButtonHandlerDemo';
 
 export default (
 
@@ -31,7 +31,7 @@ export default (
     <Route path="input"                    component={InputDemo}/>
     <Route path="input-number"             component={InputNumberDemo}/>
     <Route path="table-filters-sorter"     component={FiltersSortersTableDemo1}/>
-    <Route path="notification-close-handler"     component={NotificationCloseHandlerDemo}/>
+    <Route path="notification-close-handler"     component={NotificationCloseButtonHandlerDemo}/>
 
     <Route path="*" component={NotFoundPage}/>
 
