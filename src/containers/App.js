@@ -88,6 +88,10 @@ class App extends Component {
                   <Link to={'/notification-close-handler'}>Notification close handler</Link>
                 </Menu.Item>
 
+                <Menu.Item key="2-10">
+                  <Link to={'/checkbox-group'}>CheckboxGroup</Link>
+                </Menu.Item>
+
               </SubMenu>
 
             </Menu>
