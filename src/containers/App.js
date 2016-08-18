@@ -43,7 +43,7 @@ class App extends Component {
 
             <Menu mode="inline" theme="light" defaultOpenKeys={['sub2']}>
 
-              <SubMenu key="sub1" title={<span><Icon type="user"/>User Management</span>}>
+              <SubMenu key="user-mgmt-submenu" title={<span><Icon type="user"/>User Management</span>}>
 
                 <Menu.Item key="1">
                   <Link to={'/users'}>Users</Link>
@@ -73,12 +73,17 @@ class App extends Component {
                   <Link to={'/basic-modal-overlay'}>Basic Modal Overlay Click</Link>
                 </Menu.Item>
 
-                <Menu.Item key="2-6">
-                  <Link to={'/input'}>Input</Link>
-                </Menu.Item>
-                <Menu.Item key="2-7">
-                  <Link to={'/input-number'}>InputNumber</Link>
-                </Menu.Item>
+                <SubMenu key="input-submenu" title={<span><Icon type="user"/>Input</span>}>
+
+                  <Menu.Item key="2-6">
+                    <Link to={'/input'}>Input</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="2-7">
+                    <Link to={'/input-number'}>InputNumber</Link>
+                  </Menu.Item>
+
+                </SubMenu>
 
                 <Menu.Item key="2-8">
                   <Link to={'/table-filters-sorter'}>Filters Sorters Demo 1</Link>

@@ -8,6 +8,7 @@ class CheckboxGroupDemo extends React.Component {
   }
 
   changeHandler(checkdValues) {
+    /* eslint no-console: 0 */
     console.log('checkedValues: ', checkdValues);
   }
 

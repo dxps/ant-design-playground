@@ -13,7 +13,8 @@ class NotificationCloseButtonHandlerDemo extends React.Component {
     const key = `open${Date.now()}`;
 
     const btnClick = function() {
-      console.log("btnClick() called."); // es-lint-disable-line no-console
+      /* eslint no-console: 0 */
+      console.log("btnClick() called.");
       notification.close(key);
     };
 
