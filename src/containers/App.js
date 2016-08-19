@@ -73,7 +73,7 @@ class App extends Component {
                   <Link to={'/basic-modal-overlay'}>Basic Modal Overlay Click</Link>
                 </Menu.Item>
 
-                <SubMenu key="input-submenu" title={<span><Icon type="user"/>Input</span>}>
+                <SubMenu key="input-submenu" title={<span><Icon type="setting"/>Input</span>}>
 
                   <Menu.Item key="2-6">
                     <Link to={'/input'}>Input</Link>
@@ -89,6 +89,10 @@ class App extends Component {
 
                   <Menu.Item key="menu-submenu-1">
                     <Link to={'/horizontal-menu'}>Horizontal Menu</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="menu-submenu-2">
+                    <Link to={'/side-menu'}>Side Menu</Link>
                   </Menu.Item>
 
                 </SubMenu>
