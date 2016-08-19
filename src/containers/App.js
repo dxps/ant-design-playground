@@ -85,6 +85,14 @@ class App extends Component {
 
                 </SubMenu>
 
+                <SubMenu key="menu-submenu" title={<span><Icon type="user"/>Menu</span>}>
+
+                  <Menu.Item key="menu-submenu-1">
+                    <Link to={'/horizontal-menu'}>Horizontal Menu</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <Menu.Item key="2-8">
                   <Link to={'/table-filters-sorter'}>Filters Sorters Demo 1</Link>
                 </Menu.Item>

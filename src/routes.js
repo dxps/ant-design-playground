@@ -15,6 +15,7 @@ import InputNumberDemo              from './antd-demos/Input/InputNumberDemo';
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 import NotificationCloseButtonHandlerDemo from './antd-demos/Notification/NotificationCloseButtonHandlerDemo';
 import CheckboxGroupDemo            from './antd-demos/Checkbox/CheckboxGroupDemo';
+import HorizontalMenuDemo           from './antd-demos/Menu/HorizontalMenuDemo';
 
 export default (
 
@@ -34,6 +35,7 @@ export default (
     <Route path="table-filters-sorter"     component={FiltersSortersTableDemo1}/>
     <Route path="notification-close-handler"     component={NotificationCloseButtonHandlerDemo}/>
     <Route path="checkbox-group"           component={CheckboxGroupDemo}/>
+    <Route path="horizontal-menu"          component={HorizontalMenuDemo}/>
 
     <Route path="*" component={NotFoundPage}/>
 
