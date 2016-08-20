@@ -11,7 +11,9 @@ import AdvancedSearchFormDemo       from './antd-demos/Form/AdvancedSearchFormDe
 import BasicModalDemo               from './antd-demos/Modal/BasicModalDemo';
 import BasicModalOverlayClickDemo   from './antd-demos/Modal/BasicModalOverlayClickDemo';
 import InputDemo                    from './antd-demos/Input/InputDemo';
+import TextareaAutosizeDemo         from './antd-demos/Input/TextareaAutosizeDemo';
 import InputNumberDemo              from './antd-demos/Input/InputNumberDemo';
+import InputSearchDemo              from './antd-demos/Input/InputSearchDemo';
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 import NotificationCloseButtonHandlerDemo from './antd-demos/Notification/NotificationCloseButtonHandlerDemo';
 import CheckboxGroupDemo            from './antd-demos/Checkbox/CheckboxGroupDemo';
@@ -24,20 +26,22 @@ export default (
 
     <IndexRoute component={HomePage}/>
 
-    <Route path="users" component={ConnectedUsersPage}/>
+    <Route path="users"                        component={ConnectedUsersPage}/>
 
-    <Route path="transfer-demo"    component={TransferDemo}/>
-    <Route path="tree-select-demo" component={TreeSelectDemo}/>
-    <Route path="adv-search-form"  component={AdvancedSearchFormDemo}/>
-    <Route path="basic-modal"      component={BasicModalDemo}/>
-    <Route path="basic-modal-overlay"      component={BasicModalOverlayClickDemo}/>
-    <Route path="input"                    component={InputDemo}/>
-    <Route path="input-number"             component={InputNumberDemo}/>
-    <Route path="table-filters-sorter"     component={FiltersSortersTableDemo1}/>
-    <Route path="notification-close-handler"     component={NotificationCloseButtonHandlerDemo}/>
-    <Route path="checkbox-group"           component={CheckboxGroupDemo}/>
-    <Route path="horizontal-menu"          component={HorizontalMenuDemo}/>
-    <Route path="side-menu"                component={SideMenuDemo}/>
+    <Route path="transfer-demo"                component={TransferDemo}/>
+    <Route path="tree-select-demo"             component={TreeSelectDemo}/>
+    <Route path="adv-search-form"              component={AdvancedSearchFormDemo}/>
+    <Route path="basic-modal"                  component={BasicModalDemo}/>
+    <Route path="basic-modal-overlay"          component={BasicModalOverlayClickDemo}/>
+    <Route path="input"                        component={InputDemo}/>
+    <Route path="input-textarea-autosize"      component={TextareaAutosizeDemo}/>
+    <Route path="input-number"                 component={InputNumberDemo}/>
+    <Route path="input-search"                 component={InputSearchDemo}/>
+    <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
+    <Route path="notification-close-handler"   component={NotificationCloseButtonHandlerDemo}/>
+    <Route path="checkbox-group"               component={CheckboxGroupDemo}/>
+    <Route path="horizontal-menu"              component={HorizontalMenuDemo}/>
+    <Route path="side-menu"                    component={SideMenuDemo}/>
 
     <Route path="*" component={NotFoundPage}/>
 
