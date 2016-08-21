@@ -34,11 +34,13 @@ export default (
     <Route path="adv-search-form"              component={AdvancedSearchFormDemo}/>
     <Route path="basic-modal"                  component={BasicModalDemo}/>
     <Route path="basic-modal-overlay"          component={BasicModalOverlayClickDemo}/>
+
     <Route path="input"                        component={InputDemo}/>
-    <Route path="input-textarea-autosize"      component={TextareaAutosizeDemo}/>
-    <Route path="input-number"                 component={InputNumberDemo}/>
     <Route path="input-search"                 component={InputSearchDemo}/>
     <Route path="input-sizes"                  component={InputSizesDemo}/>
+    <Route path="input-textarea-autosize"      component={TextareaAutosizeDemo}/>
+    <Route path="input-number"                 component={InputNumberDemo}/>
+
     <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
     <Route path="notification-close-handler"   component={NotificationCloseButtonHandlerDemo}/>
     <Route path="checkbox-group"               component={CheckboxGroupDemo}/>

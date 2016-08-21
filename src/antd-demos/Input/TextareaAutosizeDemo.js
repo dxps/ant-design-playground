@@ -16,7 +16,7 @@ class TextareaAutosizeDemo extends React.Component {
                autosize/>
         <div style={{ margin: '24px 0' }}/>
         <Input type="textarea"
-               placeholder="Autosize height with minimum and maximum limits"
+               placeholder="Autosize height with minimum (of 2) and maximum (of 6) lines"
                autosize={{ minRows: 2, maxRows: 6 }}/>
       </div>
     );

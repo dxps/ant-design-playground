@@ -56,6 +56,30 @@ class App extends Component {
 
               <SubMenu key="sub2" title={<span><Icon type="user"/>Comps Demo</span>}>
 
+                <SubMenu key="input-submenu" title={<span><Icon type="setting"/>Input</span>}>
+
+                  <Menu.Item key="input-submenu-1">
+                    <Link to={'/input'}>Input</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="input-submenu-2">
+                    <Link to={'/input-search'}>Search Input</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="input-submenu-3">
+                    <Link to={'/input-sizes'}>Input sizes</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="input-submenu-4">
+                    <Link to={'/input-textarea-autosize'}>Textarea autosize</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="input-submenu-5">
+                    <Link to={'/input-number'}>InputNumber</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <Menu.Item key="2-1">
                   <Link to={'/transfer-demo'}>Transfer</Link>
                 </Menu.Item>
@@ -72,18 +96,6 @@ class App extends Component {
                 <Menu.Item key="2-5">
                   <Link to={'/basic-modal-overlay'}>Basic Modal Overlay Click</Link>
                 </Menu.Item>
-
-                <SubMenu key="input-submenu" title={<span><Icon type="setting"/>Input</span>}>
-
-                  <Menu.Item key="2-6">
-                    <Link to={'/input'}>Input</Link>
-                  </Menu.Item>
-
-                  <Menu.Item key="2-7">
-                    <Link to={'/input-number'}>InputNumber</Link>
-                  </Menu.Item>
-
-                </SubMenu>
 
                 <SubMenu key="menu-submenu" title={<span><Icon type="user"/>Menu</span>}>
 
