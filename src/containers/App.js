@@ -80,23 +80,6 @@ class App extends Component {
 
                 </SubMenu>
 
-                <Menu.Item key="2-1">
-                  <Link to={'/transfer-demo'}>Transfer</Link>
-                </Menu.Item>
-                <Menu.Item key="2-2">
-                  <Link to={'/tree-select-demo'}>Tree Select</Link>
-                </Menu.Item>
-                <Menu.Item key="2-3">
-                  <Link to={'/adv-search-form'}>Advanced Search Form</Link>
-                </Menu.Item>
-
-                <Menu.Item key="2-4">
-                  <Link to={'/basic-modal'}>Basic Modal</Link>
-                </Menu.Item>
-                <Menu.Item key="2-5">
-                  <Link to={'/basic-modal-overlay'}>Basic Modal Overlay Click</Link>
-                </Menu.Item>
-
                 <SubMenu key="menu-submenu" title={<span><Icon type="user"/>Menu</span>}>
 
                   <Menu.Item key="menu-submenu-1">
@@ -108,6 +91,35 @@ class App extends Component {
                   </Menu.Item>
 
                 </SubMenu>
+
+                <SubMenu key="menu-modals" title={<span><Icon type="user"/>Modal</span>}>
+
+                  <Menu.Item key="menu-modals-1">
+                    <Link to={'/basic-modal'}>Basic Modal</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="menu-modals-2">
+                    <Link to={'/basic-modal-overlay'}>Basic Modal Overlay Click</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
+                <SubMenu key="menu-modals" title={<span><Icon type="user"/>Form</span>}>
+
+                  <Menu.Item key="menu-modals-1">
+                    <Link to={'/adv-search-form'}>Advanced Search Form</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
+                <Menu.Item key="2-1">
+                  <Link to={'/transfer-demo'}>Transfer</Link>
+                </Menu.Item>
+
+                <Menu.Item key="2-2">
+                  <Link to={'/tree-select-demo'}>Tree Select</Link>
+                </Menu.Item>
+
 
                 <Menu.Item key="2-8">
                   <Link to={'/table-filters-sorter'}>Filters Sorters Demo 1</Link>
