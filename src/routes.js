@@ -20,6 +20,7 @@ import NotificationCloseButtonHandlerDemo from './antd-demos/Notification/Notifi
 import CheckboxGroupDemo            from './antd-demos/Checkbox/CheckboxGroupDemo';
 import HorizontalMenuDemo           from './antd-demos/Menu/HorizontalMenuDemo';
 import SideMenuDemo                 from './antd-demos/Menu/SideMenuDemo';
+import SiderMenuDemo                from './antd-demos/Menu/SiderMenuDemo';
 
 export default (
 
@@ -46,6 +47,7 @@ export default (
     <Route path="checkbox-group"               component={CheckboxGroupDemo}/>
     <Route path="horizontal-menu"              component={HorizontalMenuDemo}/>
     <Route path="side-menu"                    component={SideMenuDemo}/>
+    <Route path="sider-menu"                   component={SiderMenuDemo}/>
 
     <Route path="*" component={NotFoundPage}/>
 

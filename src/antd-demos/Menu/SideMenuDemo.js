@@ -47,22 +47,22 @@ class SideMenuDemo extends React.Component {
             selectedKeys={[this.state.current]}
             mode="inline">
 
-        <SubMenu key="sub1" title={<span><Icon type="mail" /><span>导航一</span></span>}>
+        <SubMenu key="sub1" title={<span><Icon type="mail" /><span>Option Set 1</span></span>}>
 
-          <Menu.Item key="1">选项1</Menu.Item>
-          <Menu.Item key="2">选项2</Menu.Item>
-          <Menu.Item key="3">选项3</Menu.Item>
+          <Menu.Item key="11">Option 11</Menu.Item>
+          <Menu.Item key="12">Option 12</Menu.Item>
+          <Menu.Item key="13">Option 13</Menu.Item>
 
         </SubMenu>
 
-        <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>导航二</span></span>}>
+        <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>Option Set 2</span></span>}>
 
-          <Menu.Item key="5">选项5</Menu.Item>
-          <Menu.Item key="6">选项6</Menu.Item>
+          <Menu.Item key="21">Option 21</Menu.Item>
+          <Menu.Item key="22">Option 22</Menu.Item>
 
-          <SubMenu key="sub3" title="三级导航">
-            <Menu.Item key="7">选项7</Menu.Item>
-            <Menu.Item key="8">选项8</Menu.Item>
+          <SubMenu key="sub23" title="Option Set 3">
+            <Menu.Item key="231">Option 231</Menu.Item>
+            <Menu.Item key="232">Option 232</Menu.Item>
           </SubMenu>
 
         </SubMenu>

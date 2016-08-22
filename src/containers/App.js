@@ -90,9 +90,13 @@ class App extends Component {
                     <Link to={'/side-menu'}>Side Menu</Link>
                   </Menu.Item>
 
+                  <Menu.Item key="menu-submenu-3">
+                    <Link to={'/sider-menu'}>Sider Menu</Link>
+                  </Menu.Item>
+
                 </SubMenu>
 
-                <SubMenu key="menu-modals" title={<span><Icon type="user"/>Modal</span>}>
+                <SubMenu key="menu-modal" title={<span><Icon type="user"/>Modal</span>}>
 
                   <Menu.Item key="menu-modals-1">
                     <Link to={'/basic-modal'}>Basic Modal</Link>
@@ -104,9 +108,9 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-modals" title={<span><Icon type="user"/>Form</span>}>
+                <SubMenu key="menu-form" title={<span><Icon type="user"/>Form</span>}>
 
-                  <Menu.Item key="menu-modals-1">
+                  <Menu.Item key="menu-form-advanced-search">
                     <Link to={'/adv-search-form'}>Advanced Search Form</Link>
                   </Menu.Item>
 
