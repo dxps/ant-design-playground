@@ -16,7 +16,10 @@ import InputNumberDemo              from './antd-demos/Input/InputNumberDemo';
 import InputSearchDemo              from './antd-demos/Input/InputSearchDemo';
 import InputSizesDemo               from './antd-demos/Input/InputSizesDemo';
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
+
 import NotificationCloseButtonHandlerDemo from './antd-demos/Notification/NotificationCloseButtonHandlerDemo';
+import NotificationWithIconDemo           from './antd-demos/Notification/NotificationWithIconDemo';
+
 import CheckboxGroupDemo            from './antd-demos/Checkbox/CheckboxGroupDemo';
 import HorizontalMenuDemo           from './antd-demos/Menu/HorizontalMenuDemo';
 import SideMenuDemo                 from './antd-demos/Menu/SideMenuDemo';
@@ -42,8 +45,10 @@ export default (
     <Route path="input-textarea-autosize"      component={TextareaAutosizeDemo}/>
     <Route path="input-number"                 component={InputNumberDemo}/>
 
-    <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
     <Route path="notification-close-handler"   component={NotificationCloseButtonHandlerDemo}/>
+    <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
+
+    <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
     <Route path="checkbox-group"               component={CheckboxGroupDemo}/>
     <Route path="horizontal-menu"              component={HorizontalMenuDemo}/>
     <Route path="side-menu"                    component={SideMenuDemo}/>

@@ -56,6 +56,14 @@ class App extends Component {
 
               <SubMenu key="sub2" title={<span><Icon type="user"/>Comps Demo</span>}>
 
+                <SubMenu key="menu-form" title={<span><Icon type="user"/>Form</span>}>
+
+                  <Menu.Item key="menu-form-advanced-search">
+                    <Link to={'/adv-search-form'}>Advanced Search Form</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <SubMenu key="input-submenu" title={<span><Icon type="setting"/>Input</span>}>
 
                   <Menu.Item key="input-submenu-1">
@@ -108,10 +116,14 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-form" title={<span><Icon type="user"/>Form</span>}>
+                <SubMenu key="menu-notification" title={<span><Icon type="user"/>Notification</span>}>
 
-                  <Menu.Item key="menu-form-advanced-search">
-                    <Link to={'/adv-search-form'}>Advanced Search Form</Link>
+                  <Menu.Item key="menu-notification-1">
+                    <Link to={'/notification-close-handler'}>Notification close handler</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="menu-notification-2">
+                    <Link to={'/notification-with-icon'}>Notifications with icon</Link>
                   </Menu.Item>
 
                 </SubMenu>
@@ -127,10 +139,6 @@ class App extends Component {
 
                 <Menu.Item key="2-8">
                   <Link to={'/table-filters-sorter'}>Filters Sorters Demo 1</Link>
-                </Menu.Item>
-
-                <Menu.Item key="2-9">
-                  <Link to={'/notification-close-handler'}>Notification close handler</Link>
                 </Menu.Item>
 
                 <Menu.Item key="2-10">
