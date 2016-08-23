@@ -128,17 +128,24 @@ class App extends Component {
 
                 </SubMenu>
 
+                <SubMenu key="menu-table" title={<span><Icon type="user"/>Table</span>}>
+
+                  <Menu.Item key="menu-table-1">
+                    <Link to={'/table-filters-sorter'}>Table Filters Sorters Demo 1</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="menu-table-2">
+                    <Link to={'/table-row-selection-props'}>Table Row Selection Props</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <Menu.Item key="2-1">
                   <Link to={'/transfer-demo'}>Transfer</Link>
                 </Menu.Item>
 
                 <Menu.Item key="2-2">
                   <Link to={'/tree-select-demo'}>Tree Select</Link>
-                </Menu.Item>
-
-
-                <Menu.Item key="2-8">
-                  <Link to={'/table-filters-sorter'}>Filters Sorters Demo 1</Link>
                 </Menu.Item>
 
                 <Menu.Item key="2-10">

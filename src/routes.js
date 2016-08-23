@@ -15,7 +15,9 @@ import TextareaAutosizeDemo         from './antd-demos/Input/TextareaAutosizeDem
 import InputNumberDemo              from './antd-demos/Input/InputNumberDemo';
 import InputSearchDemo              from './antd-demos/Input/InputSearchDemo';
 import InputSizesDemo               from './antd-demos/Input/InputSizesDemo';
+
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
+import TableRowSelectionPropsDemo   from './antd-demos/Table/TableRowSelectionPropsDemo';
 
 import NotificationCloseButtonHandlerDemo from './antd-demos/Notification/NotificationCloseButtonHandlerDemo';
 import NotificationWithIconDemo           from './antd-demos/Notification/NotificationWithIconDemo';
@@ -49,6 +51,8 @@ export default (
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
 
     <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
+    <Route path="table-row-selection-props"    component={TableRowSelectionPropsDemo}/>
+
     <Route path="checkbox-group"               component={CheckboxGroupDemo}/>
     <Route path="horizontal-menu"              component={HorizontalMenuDemo}/>
     <Route path="side-menu"                    component={SideMenuDemo}/>
