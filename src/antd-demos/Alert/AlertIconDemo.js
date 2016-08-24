@@ -7,7 +7,7 @@ const handleClose = (event) => {
   console.log("handleClose> event:", event);
 };
 
-const AlertIconDemo = (props) => {
+const AlertIconDemo = (/* props */) => {
   return (
     <div>
       <Alert message="Success Alert Message" type="success" showIcon />

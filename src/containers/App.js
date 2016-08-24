@@ -58,6 +58,10 @@ class App extends Component {
 
                 <SubMenu key="menu-alert" title={<span><Icon type="user"/>Alert</span>}>
 
+                  <Menu.Item key="menu-alert-banner">
+                    <Link to={'/alert-banner-demo'}>Banner Alert</Link>
+                  </Menu.Item>
+
                   <Menu.Item key="menu-alert-basic">
                     <Link to={'/alert-basic-demo'}>Alert variations</Link>
                   </Menu.Item>

@@ -6,6 +6,7 @@ import ConnectedUsersPage     from "./containers/UsersPage";
 import NotFoundPage           from "./components/NotFoundPage";
 
 import AlertBasicDemo               from './antd-demos/Alert/AlertBasicDemo';
+import AlertBannerDemo              from './antd-demos/Alert/AlertBannerDemo';
 import AlertIconDemo                from './antd-demos/Alert/AlertIconDemo';
 
 import TransferDemo                 from "./antd-demos/Transfer/TransferDemo";
@@ -39,6 +40,7 @@ export default (
     <Route path="users"                        component={ConnectedUsersPage}/>
 
     <Route path="alert-basic-demo"             component={AlertBasicDemo}/>
+    <Route path="alert-banner-demo"            component={AlertBannerDemo}/>
     <Route path="alert-icon-demo"              component={AlertIconDemo}/>
 
     <Route path="transfer-demo"                component={TransferDemo}/>
