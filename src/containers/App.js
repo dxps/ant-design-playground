@@ -56,6 +56,18 @@ class App extends Component {
 
               <SubMenu key="sub2" title={<span><Icon type="user"/>Comps Demo</span>}>
 
+                <SubMenu key="menu-alert" title={<span><Icon type="user"/>Alert</span>}>
+
+                  <Menu.Item key="menu-alert-basic">
+                    <Link to={'/alert-basic-demo'}>Alert variations</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="menu-alert-icon">
+                    <Link to={'/alert-icon-demo'}>Alerts with icon</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <SubMenu key="menu-form" title={<span><Icon type="user"/>Form</span>}>
 
                   <Menu.Item key="menu-form-advanced-search">

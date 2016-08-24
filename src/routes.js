@@ -5,6 +5,9 @@ import HomePage               from "./containers/HomePage";
 import ConnectedUsersPage     from "./containers/UsersPage";
 import NotFoundPage           from "./components/NotFoundPage";
 
+import AlertBasicDemo               from './antd-demos/Alert/AlertBasicDemo';
+import AlertIconDemo                from './antd-demos/Alert/AlertIconDemo';
+
 import TransferDemo                 from "./antd-demos/Transfer/TransferDemo";
 import TreeSelectDemo               from "./antd-demos/TreeSelect/TreeSelectDemo";
 import AdvancedSearchFormDemo       from './antd-demos/Form/AdvancedSearchFormDemo';
@@ -34,6 +37,9 @@ export default (
     <IndexRoute component={HomePage}/>
 
     <Route path="users"                        component={ConnectedUsersPage}/>
+
+    <Route path="alert-basic-demo"             component={AlertBasicDemo}/>
+    <Route path="alert-icon-demo"              component={AlertIconDemo}/>
 
     <Route path="transfer-demo"                component={TransferDemo}/>
     <Route path="tree-select-demo"             component={TreeSelectDemo}/>
