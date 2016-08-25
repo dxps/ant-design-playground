@@ -1,6 +1,9 @@
-## React & Ant Design playground
+## Ant Design playground
+
+This is my playground of using the wonderful And Design library with React.
+
 It uses:
-- hot reloading/browser-sync/redux devtools on dev build
+- hot reloading / browser-sync / redux devtools on dev build
 - minify / chunkhash / trackJS on production build
 - eslint (automatically triggered during dev and before a commit)
 - unit test of react/redux
