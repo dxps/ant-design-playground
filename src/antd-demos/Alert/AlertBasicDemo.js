@@ -7,7 +7,7 @@ const handleClose = (event) => {
   console.log("handleClose> event:", event);
 };
 
-const AlertBasicDemo = (props) => {
+const AlertBasicDemo = (/* props */) => {
 
   return (
     <div>

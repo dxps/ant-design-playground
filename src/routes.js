@@ -20,6 +20,9 @@ import InputNumberDemo              from './antd-demos/Input/InputNumberDemo';
 import InputSearchDemo              from './antd-demos/Input/InputSearchDemo';
 import InputSizesDemo               from './antd-demos/Input/InputSizesDemo';
 
+import LayoutBasicDemo              from './antd-demos/Layout/LayoutBasicDemo';
+import LayoutFlexDemo               from './antd-demos/Layout/LayoutFlexDemo';
+
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 import TableRowSelectionPropsDemo   from './antd-demos/Table/TableRowSelectionPropsDemo';
 
@@ -54,6 +57,9 @@ export default (
     <Route path="input-sizes"                  component={InputSizesDemo}/>
     <Route path="input-textarea-autosize"      component={TextareaAutosizeDemo}/>
     <Route path="input-number"                 component={InputNumberDemo}/>
+
+    <Route path="layout-basic"                 component={LayoutBasicDemo}/>
+    <Route path="layout-flex"                  component={LayoutFlexDemo}/>
 
     <Route path="notification-close-handler"   component={NotificationCloseButtonHandlerDemo}/>
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>

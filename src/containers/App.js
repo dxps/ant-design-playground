@@ -104,6 +104,18 @@ class App extends Component {
 
                 </SubMenu>
 
+                <SubMenu key="layout-submenu" title={<span><Icon type="user"/>Layout</span>}>
+
+                  <Menu.Item key="layout-submenu-basic">
+                    <Link to={'/layout-basic'}>Basic Layout</Link>
+                  </Menu.Item>
+
+                  <Menu.Item key="layout-submenu-flex">
+                    <Link to={'/layout-flex'}>Flex Layout</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <SubMenu key="menu-submenu" title={<span><Icon type="user"/>Menu</span>}>
 
                   <Menu.Item key="menu-submenu-1">

@@ -1,0 +1,30 @@
+
+.ant-col-12 {
+  background-color: bisque;
+  border: #fbfbfb 1px solid;
+  text-align: center;
+}
+
+.ant-col-8 {
+  background-color: burlywood;
+  border: #fbfbfb 1px solid;
+  text-align: center;
+}
+
+.ant-col-6 {
+  background-color: darkgoldenrod;
+  color: white;
+  border: #fbfbfb 1px solid;
+  text-align: center;
+}
+
+.ant-col-4 {
+  background-color: #88590b;
+  color: white;
+  border: #fbfbfb 1px solid;
+  text-align: center;
+}
+
+.ant-row-flex {
+  background-color: blanchedalmond;
+}
