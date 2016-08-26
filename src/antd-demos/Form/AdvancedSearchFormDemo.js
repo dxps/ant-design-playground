@@ -1,7 +1,3 @@
-/**
- * Created by ilema on 2016-08-05.
- */
-
 import React from "react";
 import { Form, Input, Row, Col, Button, DatePicker } from "antd";
 import './AdvancedSearchFormDemo.scss';
@@ -64,7 +60,7 @@ class AdvancedSearchFormDemo extends React.Component {
             <FormItem
               label="Search name"
               labelCol={{ span: 10 }}
-              wrapperCol={{ span: 14, float: 'left' }}>
+              wrapperCol={{ span: 14 }}>
               <Input placeholder="Please input the search name" size="default"/>
             </FormItem>
             <FormItem
