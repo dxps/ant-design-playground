@@ -6,7 +6,7 @@ import './layout-demos.css';
 const LayoutFlexAlignDemo = (/* props */) => {
 
   return (
-    <div>
+    <div className="layout-demos">
       <p>Columns are aligned to the left (justify="start").</p>
       <Row type="flex" justify="start">
         <Col span={4}>.ant-col-4</Col>

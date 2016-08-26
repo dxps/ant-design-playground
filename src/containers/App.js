@@ -114,6 +114,10 @@ class App extends Component {
                     <Link to={'/layout-flex'}>Flex Layout</Link>
                   </Menu.Item>
 
+                  <Menu.Item key="layout-submenu-flex-align">
+                    <Link to={'/layout-flex-align'}>Flex Align Layout</Link>
+                  </Menu.Item>
+
                 </SubMenu>
 
                 <SubMenu key="menu-submenu" title={<span><Icon type="user"/>Menu</span>}>

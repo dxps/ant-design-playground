@@ -6,7 +6,7 @@ import './layout-demos.css';
 const LayoutBasicDemo = (/* props */) => {
 
   return (
-    <div>
+    <div className="layout-demos">
       <div>Ant Design offers a 24 columns grid layout.</div>
       <Row>
         <Col span={12}>.ant-col-12</Col>
