@@ -1,0 +1,13 @@
+.layout-gutter-demo .ant-row {
+  background: rgba(32, 166, 245, 0.29);
+  border: 0;
+}
+
+.layout-gutter-demo .gutter-box {
+  background: #2db7f5;
+  color: white;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 6px;
+  text-align: center;
+}

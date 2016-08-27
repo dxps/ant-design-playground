@@ -23,6 +23,8 @@ import InputSizesDemo               from './antd-demos/Input/InputSizesDemo';
 import LayoutBasicDemo              from './antd-demos/Layout/LayoutBasicDemo';
 import LayoutFlexDemo               from './antd-demos/Layout/LayoutFlexDemo';
 import LayoutFlexAlignDemo          from './antd-demos/Layout/LayoutFlexAlignDemo';
+import LayoutGutterDemo             from './antd-demos/Layout/LayoutGutterDemo';
+import LayoutResponsiveDemo         from './antd-demos/Layout/LayoutResponsiveDemo';
 
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 import TableRowSelectionPropsDemo   from './antd-demos/Table/TableRowSelectionPropsDemo';
@@ -62,6 +64,8 @@ export default (
     <Route path="layout-basic"                 component={LayoutBasicDemo}/>
     <Route path="layout-flex"                  component={LayoutFlexDemo}/>
     <Route path="layout-flex-align"            component={LayoutFlexAlignDemo}/>
+    <Route path="layout-gutter"                component={LayoutGutterDemo}/>
+    <Route path="layout-responsive"            component={LayoutResponsiveDemo}/>
 
     <Route path="notification-close-handler"   component={NotificationCloseButtonHandlerDemo}/>
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
