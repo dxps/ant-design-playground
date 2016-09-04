@@ -1,6 +1,6 @@
 ## Ant Design playground
 
-This is my playground of using the wonderful And Design library with React.
+This is my playground of using the wonderful Ant Design library with React.
 
 It uses:
 - hot reloading / browser-sync / redux devtools on dev build
