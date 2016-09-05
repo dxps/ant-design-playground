@@ -26,6 +26,8 @@ import LayoutFlexAlignDemo          from './antd-demos/Layout/LayoutFlexAlignDem
 import LayoutGutterDemo             from './antd-demos/Layout/LayoutGutterDemo';
 import LayoutResponsiveDemo         from './antd-demos/Layout/LayoutResponsiveDemo';
 
+import ProgressDemo1                from './antd-demos/Progress/ProgressDemo1';
+
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 import TableRowSelectionPropsDemo   from './antd-demos/Table/TableRowSelectionPropsDemo';
 
@@ -69,6 +71,8 @@ export default (
 
     <Route path="notification-close-handler"   component={NotificationCloseButtonHandlerDemo}/>
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
+
+    <Route path="progress-1"                   component={ProgressDemo1}/>
 
     <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
     <Route path="table-row-selection-props"    component={TableRowSelectionPropsDemo}/>
