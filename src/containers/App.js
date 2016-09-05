@@ -104,7 +104,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="layout-submenu" title={<span><Icon type="user"/>Layout</span>}>
+                <SubMenu key="layout-submenu" title={<span><Icon type="appstore-o"/>Layout</span>}>
 
                   <Menu.Item key="layout-submenu-basic">
                     <Link to={'/layout-basic'}>Basic Layout</Link>
@@ -128,7 +128,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-submenu" title={<span><Icon type="user"/>Menu</span>}>
+                <SubMenu key="menu-submenu" title={<span><Icon type="menu-unfold"/>Menu</span>}>
 
                   <Menu.Item key="menu-submenu-1">
                     <Link to={'/horizontal-menu'}>Horizontal Menu</Link>
@@ -176,7 +176,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-table" title={<span><Icon type="user"/>Table</span>}>
+                <SubMenu key="menu-table" title={<span><Icon type="bars"/>Table</span>}>
 
                   <Menu.Item key="menu-table-1">
                     <Link to={'/table-filters-sorter'}>Table Filters Sorters Demo 1</Link>
