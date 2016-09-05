@@ -56,7 +56,7 @@ class App extends Component {
 
               <SubMenu key="sub2" title={<span><Icon type="user"/>Comps Demo</span>}>
 
-                <SubMenu key="menu-alert" title={<span><Icon type="user"/>Alert</span>}>
+                <SubMenu key="menu-alert" title={<span><Icon type="exclamation-circle-o"/>Alert</span>}>
 
                   <Menu.Item key="menu-alert-banner">
                     <Link to={'/alert-banner-demo'}>Banner Alert</Link>
@@ -72,7 +72,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-form" title={<span><Icon type="user"/>Form</span>}>
+                <SubMenu key="menu-form" title={<span><Icon type="exception"/>Form</span>}>
 
                   <Menu.Item key="menu-form-advanced-search">
                     <Link to={'/adv-search-form'}>Advanced Search Form</Link>
@@ -80,7 +80,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="input-submenu" title={<span><Icon type="setting"/>Input</span>}>
+                <SubMenu key="input-submenu" title={<span><Icon type="edit"/>Input</span>}>
 
                   <Menu.Item key="input-submenu-1">
                     <Link to={'/input'}>Input</Link>
@@ -144,7 +144,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-modal" title={<span><Icon type="user"/>Modal</span>}>
+                <SubMenu key="menu-modal" title={<span><Icon type="scan"/>Modal</span>}>
 
                   <Menu.Item key="menu-modals-1">
                     <Link to={'/basic-modal'}>Basic Modal</Link>
@@ -156,7 +156,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-notification" title={<span><Icon type="user"/>Notification</span>}>
+                <SubMenu key="menu-notification" title={<span><Icon type="info-circle-o"/>Notification</span>}>
 
                   <Menu.Item key="menu-notification-1">
                     <Link to={'/notification-close-handler'}>Notification close handler</Link>
