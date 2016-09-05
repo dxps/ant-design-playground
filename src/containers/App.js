@@ -168,7 +168,7 @@ class App extends Component {
 
                 </SubMenu>
 
-                <SubMenu key="menu-progress" title={<span><Icon type="user"/>Progress</span>}>
+                <SubMenu key="menu-progress" title={<span><Icon type="ellipsis"/>Progress</span>}>
 
                   <Menu.Item key="menu-progress-1">
                     <Link to={'/progress-1'}>Progress demo 1</Link>
