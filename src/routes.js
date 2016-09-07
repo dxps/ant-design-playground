@@ -27,6 +27,7 @@ import LayoutGutterDemo             from './antd-demos/Layout/LayoutGutterDemo';
 import LayoutResponsiveDemo         from './antd-demos/Layout/LayoutResponsiveDemo';
 
 import ProgressDemo1                from './antd-demos/Progress/ProgressDemo1';
+import ProgressDemo2                from './antd-demos/Progress/ProgressDemo2';
 
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 import TableRowSelectionPropsDemo   from './antd-demos/Table/TableRowSelectionPropsDemo';
@@ -73,6 +74,7 @@ export default (
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
 
     <Route path="progress-1"                   component={ProgressDemo1}/>
+    <Route path="progress-2"                   component={ProgressDemo2}/>
 
     <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
     <Route path="table-row-selection-props"    component={TableRowSelectionPropsDemo}/>

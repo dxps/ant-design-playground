@@ -6,7 +6,7 @@ const ProgressDemo1 = (/* props */) => {
 
   return (
     <div>
-      <div>Progress - standard and 'mini' versions</div>
+      <div>Progress - default type in normal and 'mini' versions</div>
       <br/>
       <Row>
         <Col span={12}>
