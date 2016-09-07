@@ -1,16 +1,28 @@
 import React from "react";
-import { Progress } from "antd";
+import { Progress, Row, Col } from "antd";
 
 
 const ProgressDemo1 = (/* props */) => {
 
   return (
     <div>
-      <Progress percent={30} />
-      <Progress percent={50} status="active" />
-      <Progress percent={70} status="exception" />
-      <Progress percent={100} />
-      <Progress percent={50} showInfo={false} />
+      <div>Progress - standard and 'mini' versions</div>
+      <br/>
+      <Row>
+        <Col span={12}>
+          <Progress percent={30}/>
+          <Progress percent={50} status="active"/>
+          <Progress percent={70} status="exception"/>
+          <Progress percent={100}/>
+          <Progress percent={50} showInfo={false}/>
+        </Col>
+        <Col span={12} push={1}>
+          <Progress percent={30} strokeWidth={5} />
+          <Progress percent={50} strokeWidth={5} status="active" />
+          <Progress percent={70} strokeWidth={5} status="exception" />
+          <Progress percent={100} strokeWidth={5} />
+        </Col>
+      </Row>
     </div>
   );
 
