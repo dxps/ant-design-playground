@@ -28,6 +28,7 @@ import LayoutResponsiveDemo         from './antd-demos/Layout/LayoutResponsiveDe
 
 import ProgressDemo1                from './antd-demos/Progress/ProgressDemo1';
 import ProgressDemo2                from './antd-demos/Progress/ProgressDemo2';
+import ProgressDemo3                from './antd-demos/Progress/ProgressDemo3';
 
 import FiltersSortersTableDemo1     from './antd-demos/Table/FiltersSortersTableDemo1';
 import TableRowSelectionPropsDemo   from './antd-demos/Table/TableRowSelectionPropsDemo';
@@ -75,6 +76,7 @@ export default (
 
     <Route path="progress-1"                   component={ProgressDemo1}/>
     <Route path="progress-2"                   component={ProgressDemo2}/>
+    <Route path="progress-3"                   component={ProgressDemo3}/>
 
     <Route path="table-filters-sorter"         component={FiltersSortersTableDemo1}/>
     <Route path="table-row-selection-props"    component={TableRowSelectionPropsDemo}/>

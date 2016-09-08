@@ -2,7 +2,7 @@ import React from "react";
 import { Progress, Row, Col } from "antd";
 
 
-const ProgressDemo1 = (/* props */) => {
+const ProgressDemo2 = (/* props */) => {
 
   return (
     <div>
@@ -25,4 +25,4 @@ const ProgressDemo1 = (/* props */) => {
 
 };
 
-export default ProgressDemo1;
+export default ProgressDemo2;
