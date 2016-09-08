@@ -41,7 +41,7 @@ class ProgressDemo3 extends React.Component {
             </div>
           </Col>
           <Col span={4}>
-            <ButtonGroup>
+            <ButtonGroup size="large">
               <Button type="ghost" onClick={this.decrease} icon="minus"/>
               <Button type="ghost" onClick={this.increase} icon="plus"/>
             </ButtonGroup>
