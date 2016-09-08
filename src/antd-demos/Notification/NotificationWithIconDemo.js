@@ -23,7 +23,7 @@ class NotificationWithIconDemo extends React.Component {
   render() {
 
     return (
-      <div>
+      <div className="notif-icon-demo">
         <Button type="primary" size="small" onClick={this.openNotificationWithIcon('success')}>
           Success
         </Button>
