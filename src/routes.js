@@ -26,6 +26,8 @@ import LayoutFlexAlignDemo          from './antd-demos/Layout/LayoutFlexAlignDem
 import LayoutGutterDemo             from './antd-demos/Layout/LayoutGutterDemo';
 import LayoutResponsiveDemo         from './antd-demos/Layout/LayoutResponsiveDemo';
 
+import PopoverDemo1                 from './antd-demos/Popover/PopoverDemo1';
+
 import ProgressDemo1                from './antd-demos/Progress/ProgressDemo1';
 import ProgressDemo2                from './antd-demos/Progress/ProgressDemo2';
 import ProgressDemo3                from './antd-demos/Progress/ProgressDemo3';
@@ -73,6 +75,8 @@ export default (
 
     <Route path="notification-close-handler"   component={NotificationCloseButtonHandlerDemo}/>
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
+
+    <Route path="popover-1"                    component={PopoverDemo1}/>
 
     <Route path="progress-1"                   component={ProgressDemo1}/>
     <Route path="progress-2"                   component={ProgressDemo2}/>
