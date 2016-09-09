@@ -168,6 +168,14 @@ class App extends Component {
 
                 </SubMenu>
 
+                <SubMenu key="menu-popover" title={<span><Icon type="environment-o"/>Popover</span>}>
+
+                  <Menu.Item key="menu-popover-1">
+                    <Link to={'/popover-1'}>Popover demo 1</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <SubMenu key="menu-progress" title={<span><Icon type="ellipsis"/>Progress</span>}>
 
                   <Menu.Item key="menu-progress-1">
