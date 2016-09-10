@@ -27,6 +27,7 @@ import LayoutGutterDemo             from './antd-demos/Layout/LayoutGutterDemo';
 import LayoutResponsiveDemo         from './antd-demos/Layout/LayoutResponsiveDemo';
 
 import PopoverDemo1                 from './antd-demos/Popover/PopoverDemo1';
+import PopoverDemo2                 from './antd-demos/Popover/PopoverDemo2';
 
 import ProgressDemo1                from './antd-demos/Progress/ProgressDemo1';
 import ProgressDemo2                from './antd-demos/Progress/ProgressDemo2';
@@ -77,6 +78,7 @@ export default (
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
 
     <Route path="popover-1"                    component={PopoverDemo1}/>
+    <Route path="popover-2"                    component={PopoverDemo2}/>
 
     <Route path="progress-1"                   component={ProgressDemo1}/>
     <Route path="progress-2"                   component={ProgressDemo2}/>
