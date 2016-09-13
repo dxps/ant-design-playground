@@ -44,6 +44,8 @@ import HorizontalMenuDemo           from './antd-demos/Menu/HorizontalMenuDemo';
 import SideMenuDemo                 from './antd-demos/Menu/SideMenuDemo';
 import SiderMenuDemo                from './antd-demos/Menu/SiderMenuDemo';
 
+import TooltipAlignAtCenterDemo                from './antd-demos/Tooltip/TooltipAlignAtCenterDemo';
+
 export default (
 
   <Route path="/" component={App}>
@@ -91,6 +93,8 @@ export default (
     <Route path="horizontal-menu"              component={HorizontalMenuDemo}/>
     <Route path="side-menu"                    component={SideMenuDemo}/>
     <Route path="sider-menu"                   component={SiderMenuDemo}/>
+
+    <Route path="tooltip-center-demo"          component={TooltipAlignAtCenterDemo}/>
 
     <Route path="*" component={NotFoundPage}/>
 
