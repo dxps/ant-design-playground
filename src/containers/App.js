@@ -1,11 +1,11 @@
 import React, { PropTypes, Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router";
-// import "./App.scss";
 import "./App.less";
 import { Menu, Breadcrumb, Icon, LocaleProvider } from "antd";
 import Login from "./login/Login";
 import enUS from "antd/lib/locale-provider/en_US";
+// import "./App.scss";
 
 const SubMenu = Menu.SubMenu;
 
@@ -200,6 +200,14 @@ class App extends Component {
 
                   <Menu.Item key="menu-table-2">
                     <Link to={'/table-row-selection-props'}>Table Row Selection Props</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
+                <SubMenu key="tooltip" title={<span><Icon type="arrow-down"/>Tooltip</span>}>
+
+                  <Menu.Item key="tooltip-center-demo">
+                    <Link to={'/tooltip-center-demo'}>Tooltip arrowPointAtCenter</Link>
                   </Menu.Item>
 
                 </SubMenu>
