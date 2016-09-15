@@ -44,3 +44,6 @@ npm run test:cover
 
 ```
 
+##### Acknowledgements
+
+Many thanks to Justin-lu's [starter](https://github.com/Justin-lu/react-redux-antd) for the initial base of this playground.
