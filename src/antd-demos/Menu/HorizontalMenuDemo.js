@@ -37,20 +37,20 @@ class HorizontalMenuDemo extends React.Component {
           <Icon type="mail" />mail
         </Menu.Item>
         <Menu.Item key="app" disabled>
-          <Icon type="appstore" />appstore
+          <Icon type="appstore" />appstore (disabled)
         </Menu.Item>
         <SubMenu title={<span><Icon type="setting" />settings</span>}>
-          <MenuItemGroup title="分组1">
-            <Menu.Item key="setting:1">选项1</Menu.Item>
-            <Menu.Item key="setting:2">选项2</Menu.Item>
+          <MenuItemGroup title="Section 1">
+            <Menu.Item key="setting:11">Subsection 1-1</Menu.Item>
+            <Menu.Item key="setting:12">Subsection 1-2</Menu.Item>
           </MenuItemGroup>
-          <MenuItemGroup title="分组2">
-            <Menu.Item key="setting:3">选项3</Menu.Item>
-            <Menu.Item key="setting:4">选项4</Menu.Item>
+          <MenuItemGroup title="Section 2">
+            <Menu.Item key="setting:21">Subsection 2-1</Menu.Item>
+            <Menu.Item key="setting:22">Subsection 2-2</Menu.Item>
           </MenuItemGroup>
         </SubMenu>
         <Menu.Item key="other">
-          <a href="#">other</a>
+          <a href="#">others</a>
         </Menu.Item>
 
       </Menu>
