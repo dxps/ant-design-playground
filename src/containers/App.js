@@ -72,6 +72,14 @@ class App extends Component {
 
                 </SubMenu>
 
+                <SubMenu key="badge-demos" title={<span><Icon type="message"/>Badge</span>}>
+
+                  <Menu.Item key="change-badge-demo">
+                    <Link to={'/change-badge-demo'}>Change Badges</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <SubMenu key="menu-form" title={<span><Icon type="exception"/>Form</span>}>
 
                   <Menu.Item key="menu-form-advanced-search">
