@@ -9,6 +9,8 @@ import AlertBasicDemo               from './antd-demos/Alert/AlertBasicDemo';
 import AlertBannerDemo              from './antd-demos/Alert/AlertBannerDemo';
 import AlertIconDemo                from './antd-demos/Alert/AlertIconDemo';
 
+import ChangeBadgeDemo              from './antd-demos/Badge/ChangeBadgeDemo';
+
 import TransferDemo                 from "./antd-demos/Transfer/TransferDemo";
 import TreeSelectDemo               from "./antd-demos/TreeSelect/TreeSelectDemo";
 import AdvancedSearchFormDemo       from './antd-demos/Form/AdvancedSearchFormDemo';
@@ -57,6 +59,8 @@ export default (
     <Route path="alert-basic-demo"             component={AlertBasicDemo}/>
     <Route path="alert-banner-demo"            component={AlertBannerDemo}/>
     <Route path="alert-icon-demo"              component={AlertIconDemo}/>
+
+    <Route path="change-badge-demo"            component={ChangeBadgeDemo}/>
 
     <Route path="transfer-demo"                component={TransferDemo}/>
     <Route path="tree-select-demo"             component={TreeSelectDemo}/>
