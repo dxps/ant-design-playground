@@ -1,7 +1,7 @@
 import React from "react";
 import { Popconfirm, message } from "antd";
 
-const PopconfirmBasicDemo = ( /* props */ ) => {
+const PopconfirmCustomLabelsDemo = ( /* props */ ) => {
 
   let confirm = () => {
     message.success("Delete was confirmed.");
@@ -14,6 +14,7 @@ const PopconfirmBasicDemo = ( /* props */ ) => {
 
   return (
     <Popconfirm title="Are you sure you want to delete this task ?"
+                okText="Yes" cancelText="No"
                 onConfirm={confirm}
                 onCancel={cancel}>
       <a href="#">Delete</a>
@@ -22,4 +23,4 @@ const PopconfirmBasicDemo = ( /* props */ ) => {
 
 };
 
-export default PopconfirmBasicDemo;
+export default PopconfirmCustomLabelsDemo;

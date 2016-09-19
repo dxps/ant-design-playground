@@ -182,6 +182,10 @@ class App extends Component {
                     <Link to={'/popconfirm-basic-demo'}>Popconfirm Basic Demo</Link>
                   </Menu.Item>
 
+                  <Menu.Item key="popconfirm-custom-lables">
+                    <Link to={'/popconfirm-custom-labels'}>Popconfirm Custom Labels</Link>
+                  </Menu.Item>
+
                 </SubMenu>
 
                 <SubMenu key="menu-popover" title={<span><Icon type="environment-o"/>Popover</span>}>

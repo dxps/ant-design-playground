@@ -29,6 +29,7 @@ import LayoutGutterDemo             from './antd-demos/Layout/LayoutGutterDemo';
 import LayoutResponsiveDemo         from './antd-demos/Layout/LayoutResponsiveDemo';
 
 import PopconfirmBasicDemo          from './antd-demos/Popconfirm/PopconfirmBasicDemo';
+import PopconfirmCustomLabelsDemo   from './antd-demos/Popconfirm/PopconfirmCustomLabelsDemo';
 
 import PopoverDemo1                 from './antd-demos/Popover/PopoverDemo1';
 import PopoverDemo2                 from './antd-demos/Popover/PopoverDemo2';
@@ -86,6 +87,7 @@ export default (
     <Route path="notification-with-icon"       component={NotificationWithIconDemo}/>
 
     <Route path="popconfirm-basic-demo"        component={PopconfirmBasicDemo}/>
+    <Route path="popconfirm-custom-labels"     component={PopconfirmCustomLabelsDemo}/>
 
     <Route path="popover-1"                    component={PopoverDemo1}/>
     <Route path="popover-2"                    component={PopoverDemo2}/>
