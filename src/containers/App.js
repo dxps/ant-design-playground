@@ -176,6 +176,14 @@ class App extends Component {
 
                 </SubMenu>
 
+                <SubMenu key="popconfirm-demos" title={<span><Icon type="message"/>Popconfirm</span>}>
+
+                  <Menu.Item key="popconfirm-basic-demo">
+                    <Link to={'/popconfirm-basic-demo'}>Popconfirm Basic Demo</Link>
+                  </Menu.Item>
+
+                </SubMenu>
+
                 <SubMenu key="menu-popover" title={<span><Icon type="environment-o"/>Popover</span>}>
 
                   <Menu.Item key="menu-popover-1">
