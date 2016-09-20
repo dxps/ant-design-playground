@@ -73,4 +73,11 @@ class InputSearchDemo extends React.Component {
 
 }
 
+InputSearchDemo.propTypes = {
+  onSearch: React.PropTypes.func,
+  style: React.PropTypes.string,
+  size: React.PropTypes.string,
+  placeholder: React.PropTypes.string
+};
+
 export default InputSearchDemo;

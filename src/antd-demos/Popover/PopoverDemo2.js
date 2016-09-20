@@ -1,5 +1,5 @@
 import React from "react";
-import { Popover, Button, Row, Col } from "antd";
+import { Popover, Button } from "antd";
 
 class PopoverDemo2 extends React.Component {
 

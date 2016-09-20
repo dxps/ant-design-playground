@@ -8,8 +8,8 @@ const PopconfirmCustomLabelsDemo = ( /* props */ ) => {
   };
 
   let cancel = () => {
-    message.error("Delete was canceled.")
-  }
+    message.error("Delete was canceled.");
+  };
 
 
   return (

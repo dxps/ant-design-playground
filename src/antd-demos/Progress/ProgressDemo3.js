@@ -32,7 +32,7 @@ class ProgressDemo3 extends React.Component {
 
     return (
       <div>
-        <div></div>
+        <div/>
         <br/>
         <Row>
           <Col span={10} push={1}>
