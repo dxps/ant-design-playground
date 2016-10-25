@@ -2,7 +2,8 @@ import webpack from 'webpack';
 import path from 'path';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-const updateIndexHTML = require('./tools/updateIndexHTML');
+// not used, for now
+// const updateIndexHTML = require('./tools/updateIndexHTML');
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production'),
@@ -38,8 +39,8 @@ export default {
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       }
-    }),
-    new updateIndexHTML()
+    }) // , not used, for now
+    // new updateIndexHTML()
   ],
   module: {
     loaders: [
@@ -51,7 +52,8 @@ export default {
       {test: /\.(jpe?g|png|gif)$/i, loaders: ['file']},
       {test: /\.ico$/, loader: 'file-loader?name=[name].[ext]'},
       // https://github.com/webpack/style-loader#recommended-configuration
-      {test: /(\.css|\.scss)$/, loaders: ['style', 'css', 'sass']}
+      {test: /(\.css|\.scss)$/, loaders: ['style', 'css', 'sass']},
+      {test: /\.less$/, loaders: [ 'style', 'css', 'less' ]}
     ]
   }
 };

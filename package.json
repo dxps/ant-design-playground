@@ -1,7 +1,7 @@
 {
   "name": "ant-design-playground",
   "version": "1.0.0",
-  "description": "ant-design react redux playground (based on Justin Lu <gdjyluxiaoyong@gmail.com>)",
+  "description": "Playground using Ant Design with React and Redux",
   "main": "index.js",
   "scripts": {
     "start-message": "babel-node tools/startMessage.js",
